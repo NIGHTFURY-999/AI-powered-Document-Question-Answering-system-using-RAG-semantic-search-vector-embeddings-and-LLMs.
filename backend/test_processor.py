@@ -4,5 +4,5 @@ pages = extract_text_from_pdf("sample.pdf")
 
 for page in pages:
     print("PAGE:", page["page"])
-    print(page["text"][:500])
+    print(page["text"])
     print("-" * 50)
